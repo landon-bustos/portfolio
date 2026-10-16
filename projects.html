@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>More Projects | Landon Bustos</title>
+  <meta name="description" content="More data analysis projects by Landon Bustos: time series forecasting, bootstrap inference, data pipelines, recommendation systems, and web scraping.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="col">
+
+  <header class="top">
+    <a class="name" href="index.html">Landon Bustos</a>
+    <nav>
+      <a href="index.html#projects">Projects</a>
+      <a href="projects.html" aria-current="page">More</a>
+      <a href="index.html#resume">Resume</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="intro">
+      <h1>More projects</h1>
+      <p class="role">Coursework, independent, and on-the-job work</p>
+      <p><a href="index.html">&larr; Back to home</a></p>
+    </section>
+
+    <section>
+      <article class="project">
+        <h3>Is WIC vendor access unequal across rural and urban California?</h3>
+        <p class="meta">Python &middot; pandas &middot; statsmodels</p>
+        <p>We merged WIC vendor locations with county population and USDA Rural-Urban Continuum Codes, then compared vendor density across all 58 counties. With a sample that small, a bootstrap made more sense than a t-test.</p>
+      </article>
+
+      <article class="project">
+        <h3>Forecasting the Central African Republic's GDP and imports</h3>
+        <p class="meta">R</p>
+        <p>Time series modeling of 58 years of World Bank data for an economy shaped by repeated coups and a 2013 civil war that cut GDP by about 36%. I differenced the non-stationary series and chose model orders using ACF/PACF plots and AIC.</p>
+      </article>
+
+      <article class="project">
+        <h3>Detecting government spending news with NLP</h3>
+        <p class="meta">Python &middot; spaCy</p>
+        <p>Can a text classifier pick out news about government spending as well as a human reader? I hand-annotated 1,000+ articles toward a 2,400+ article benchmark, then built a spaCy pipeline that combines keyword filtering, named-entity recognition, and TF-IDF.</p>
+      </article>
+
+      <article class="project">
+        <h3>Song popularity and recommendations from audio features</h3>
+        <p class="meta">Python &middot; PyTorch &middot; scikit-learn &middot; pandas</p>
+        <p>On 114,000 Spotify tracks, we predicted popularity from audio features using feature selection and cross-validation. We also built a recommender that compresses features with a neural network and finds similar songs with k-nearest neighbors.</p>
+      </article>
+
+      <article class="project">
+        <h3>Live institutional data dashboard</h3>
+        <p class="meta">HTML &middot; CSS &middot; JavaScript &middot; REST API</p>
+        <p>A custom website that pulls live data from a REST API into a self-updating dashboard used by 12 staff. I also migrated and cleaned 10,000+ records and automated recurring reports with Power Query and VBA.</p>
+      </article>
+
+      <article class="project">
+        <h3>San Francisco housing listings scraper</h3>
+        <p class="meta">Python &middot; Selenium &middot; pandas</p>
+        <p>A Selenium scraper that paginates through listings in six San Francisco neighborhoods, from Sea Cliff to the Tenderloin. It handles missing fields and cleans prices, beds, and baths into an analysis-ready dataset.</p>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="foot">&copy; 2026 Landon Bustos</footer>
+
+</div>
+
+</body>
+</html>

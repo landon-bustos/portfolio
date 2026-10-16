@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landon Bustos | Data Analyst</title>
+  <meta name="description" content="Data analysis portfolio of Landon Bustos: econometrics, statistical modeling, NLP, and data pipelines in Python, R, SQL, and Stata.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="col">
+
+  <header class="top">
+    <a class="name" href="index.html">Landon Bustos</a>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="projects.html">More</a>
+      <a href="#resume">Resume</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="intro">
+      <div class="mark" aria-hidden="true">LB</div>
+      <h1>Landon Bustos</h1>
+      <p class="role">Data Analyst &middot; Statistics &amp; Economics</p>
+
+      <p>
+        I recently graduated from UC Davis with a B.S. in Statistics and a B.A.
+        in Economics. I've done data work at <strong>Elsevier</strong>, the
+        <strong>UC Davis Department of Economics</strong>, and
+        <strong>UC Davis Global Affairs</strong>.
+      </p>
+      <p>
+        I like taking messy public and institutional data, building the
+        pipeline, and fitting the model that actually answers the question.
+        Then I explain what the numbers do and don't say.
+      </p>
+      <p>
+        I'm looking for data analyst and economic research roles. I also write
+        about economic data on my blog,
+        <a href="https://landon-bustos.github.io/" target="_blank" rel="noopener">Marginal Notes</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Get in touch</h2>
+      <p class="links">
+        <a href="mailto:landonbustos0@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/landonbustos/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/landon-bustos" target="_blank" rel="noopener">GitHub</a>
+        <a href="resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>Toolkit</h2>
+      <dl class="toolkit">
+        <dt>Languages</dt><dd>Python, R, SQL, Stata, JavaScript, VBA</dd>
+        <dt>Libraries</dt><dd>pandas, NumPy, SciPy, statsmodels, spaCy, matplotlib, seaborn, BeautifulSoup, Scrapy, Selenium</dd>
+        <dt>Methods</dt><dd>OLS &amp; logit regression, time series (ARIMA), bootstrap inference, clustering, NLP, ANOVA, multivariate analysis</dd>
+        <dt>Tools</dt><dd>Git, Tableau, Excel / Power Query, Databricks, Salesforce, REST APIs</dd>
+      </dl>
+    </section>
+
+    <section id="projects">
+      <h2>Top projects</h2>
+
+      <article class="project">
+        <h3><a href="https://landon-bustos.github.io/2026/09/23/preventable-hospitalizations/" target="_blank" rel="noopener">Why some counties have far more preventable hospitalizations</a></h3>
+        <p class="meta">Stata</p>
+        <p>How much of the gap between counties traces back to economic hardship? Using the 2025 County Health Rankings (3,159 counties), I built up from a single-regressor OLS to log-transformed models with interaction terms, plus a logit model for high-hospitalization counties.</p>
+      </article>
+
+      <article class="project">
+        <h3>An automated pipeline tracking housing affordability across 500 metros</h3>
+        <p class="meta">Python &middot; SQL &middot; AWS &middot; Excel</p>
+        <p>A weekly AWS Lambda job pulls Zillow, Freddie Mac and Census data, quarantines bad records through 48 config-driven quality checks, models affordability in SQL, and publishes a dashboard via CloudFront and a downloadable Excel report.</p>
+      </article>
+
+      <article class="project">
+        <h3>Do big college sports wins boost applications?</h3>
+        <p class="meta">Python &middot; pandas &middot; statsmodels &middot; College Football Data API</p>
+        <p>A pipeline that pulls game results, betting lines, and team records, flags upsets and other high-profile wins, and fuzzy-matches school names to admissions data. Then OLS on log-transformed application counts with robust standard errors.</p>
+      </article>
+
+      <p class="more"><a href="projects.html">See 6 more projects &rarr;</a></p>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <div class="resume-frame">
+        <iframe src="resume.pdf#view=FitH&amp;toolbar=0&amp;navpanes=0" title="Landon Bustos resume" loading="lazy"></iframe>
+      </div>
+      <p class="links">
+        <a href="resume.pdf" download="Landon-Bustos-Resume.pdf">Download PDF</a>
+        <a href="resume.pdf" target="_blank" rel="noopener">Open in new tab</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="foot">&copy; 2026 Landon Bustos</footer>
+
+</div>
+
+</body>
+</html>
